@@ -1,0 +1,777 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+    /**
+    * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+    * http://cssreset.com
+    */
+	
+	 html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    
+
+	article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    display: block;
+    }
+    body {
+    line-height: 1;
+    }
+    ol, ul {
+    list-style: none;
+    }
+    blockquote, q {
+    quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    }
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
+
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.nav {
+    margin: 0 auto;
+	width: 100%;
+	list-style-type: none;
+	position: fixed;
+	background: #ffffff;
+	z-index: 10;
+} 
+
+
+.nav li {
+	padding: 10px 30px 6px 0px;
+	
+
+}
+
+
+.nav a {
+	display: block;
+	text-decoration: none;
+	
+	
+}
+
+.navsm {
+		display: none;
+		}
+
+
+/****** OTHER *******/
+
+
+.topteeth {
+	z-index: 10;
+	position: fixed;
+	top: 56px;
+background-image: url('img/top_zig_bg.png');
+background-repeat: repeat-x;
+height: 60px;
+width: 100%;	
+
+}
+
+.main {
+	top: 90px;
+	background: #922d90;
+}
+
+.welcome {
+	padding-top: 120px;
+	padding-left: 70px;
+	font-size: 1em;
+	color: #922d90;
+	max-width: 25%;
+	line-height: 2em;
+	text-align: justify;
+	min-width: 310px;
+	font-family: 'Dosis', sans-serif;
+	visibility: hidden;
+	
+}
+
+.wtext { 
+	background-color:#ffffff; 
+	visibility: hidden;
+}
+
+.arrows {
+	display: block;
+	margin: 30px 0 0 75px;
+	width: 20%;
+	visibility: hidden;
+}
+
+
+
+.background {
+	
+	background: url('img/1280_l.png') no-repeat;
+	background-attachment: fixed;
+	height: 593px;
+	width: 100%;
+	/* background: url("img/background20.png") no-repeat; */
+	
+}
+
+
+.categorywrap {
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
+.bottomteeth {
+	top: 580px;
+position: absolute;
+background-image: url('img/bottom_zig_bg.png');
+background-repeat: repeat-x;
+height: 60px;
+width: 100%;	
+
+}
+
+
+
+.text {
+	line-height: 1.5em;
+
+}
+
+
+/******** OLD CHECKBOXES ********/
+
+.categorywrap {
+
+}
+
+.category {
+	max-height: 100%;
+	background-color: #ffffff;
+	text-align: center;
+	list-style-type: none;
+	width: 80%;
+	margin: 0 0 0 45px;
+		
+}
+
+.category ul {
+	width: 85%;
+	margin-left: 20px;
+}
+
+
+
+.liall {
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+
+	
+}
+
+
+
+.label {
+	display: block;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1em;
+	word-spacing: 3.7em;
+	text-align: justify;
+	padding: 0 0 0 25px;
+}
+
+
+/******** NEW CHECKBOXES ********/
+
+
+
+.myContainer input[type="checkbox"][name="all"],
+.myContainer input[type="checkbox"][name="typography"],
+.myContainer input[type="checkbox"][name="illustration"],
+.myContainer input[type="checkbox"][name="branding"],
+.myContainer input[type="checkbox"][name="informational"],
+.myContainer input[type="checkbox"][name="print"],
+.myContainer input[type="checkbox"][name="poster"],
+.myContainer input[type="checkbox"][name="book"] {
+    opacity: 0;
+    height: 47px;
+    width: 47px;
+    position: absolute;
+    z-index: 2;
+}
+.myContainer input[type="checkbox"][name="all"]:not(:checked) + label.allcheck,
+.myContainer input[type="checkbox"][name="typography"]:not(:checked) + label.allcheck,
+.myContainer input[type="checkbox"][name="illustration"]:not(:checked) + label.allcheck,
+.myContainer input[type="checkbox"][name="branding"]:not(:checked) + label.allcheck,
+.myContainer input[type="checkbox"][name="informational"]:not(:checked) + label.allcheck,
+.myContainer input[type="checkbox"][name="print"]:not(:checked) + label.allcheck,
+.myContainer input[type="checkbox"][name="poster"]:not(:checked) + label.allcheck,
+.myContainer input[type="checkbox"][name="book"]:not(:checked) + label.allcheck {
+    background-image: url(img/unchecked.png);
+    height: 47px;
+    width: 47px;
+    display:inline-block;
+    z-index: 1;
+}
+.myContainer input[type="checkbox"][name="all"]:checked + label.allcheck,
+.myContainer input[type="checkbox"][name="typography"]:checked + label.allcheck,
+.myContainer input[type="checkbox"][name="illustration"]:checked + label.allcheck,
+.myContainer input[type="checkbox"][name="branding"]:checked + label.allcheck,
+.myContainer input[type="checkbox"][name="informational"]:checked + label.allcheck,
+.myContainer input[type="checkbox"][name="print"]:checked + label.allcheck,
+.myContainer input[type="checkbox"][name="poster"]:checked + label.allcheck,
+.myContainer input[type="checkbox"][name="book"]:checked + label.allcheck {
+    background-image: url(img/checked.png);
+    height: 47px;
+    width: 47px;
+    display:inline-block;
+}
+
+/*
+.myContainer input[type="checkbox"][name="all"] + label + label.text,
+.myContainer input[type="checkbox"][name="cat"] + label + label.text,
+.myContainer input[type="checkbox"][name="dog"] + label + label.text,
+.myContainer input[type="checkbox"][name="bird"] + label + label.text {
+    font: normal 12px arial;
+    display: inline-block;
+    line-height: 27px;
+    vertical-align: top;
+    margin: 5px 0px;
+}
+
+
+
+
+.myContainter {
+	max-height: 100%;
+	background-color: #ffffff;
+	text-align: center;
+	list-style-type: none;
+	width: 100%;
+	margin: 0 0 0 45px;
+}
+*/
+
+.category ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+
+.divider {
+	background-color: #c8cf2c;
+	height: 2px;
+	width: 100%;
+	margin: 5px 0px 8px 0px;
+}
+
+
+/******** GALLERY ********/
+
+
+
+.button {
+	width: 354px;
+	height: 266px;
+position: relative;
+display: inline;
+flex-wrap: wrap;
+flex-flow: row wrap;
+display: inline-flex;
+}
+
+
+
+.gallery {
+	margin: auto;
+	width: 90%;
+}
+
+.gallery li {
+	flex-wrap: wrap;
+position: relative;
+display: inline;
+flex-flow: row wrap;
+}
+
+
+
+.group {
+	display: inline-flex;
+	/*background-color: rgba(200, 207, 44, 0.75);*/
+	background-color: #e7e290;
+	width: 100%;
+	border: 7px solid white;
+	padding: 20px 0px 20px 0px;
+}
+
+
+.group2 {
+	background-color: #c8cf2c;
+}
+
+
+
+.groupwrap ul {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.groupwrap li {
+	padding: 10px 10px;
+
+}
+
+
+.button {
+  display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style-type: none;
+position: relative;
+}
+
+
+.button:hover {
+-webkit-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+-moz-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+}
+
+
+
+.hcol-a {
+	flex: .7;
+	margin: 0px 15px 0px 15px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	letter-spacing: .5px;
+	line-height: 1.5em;
+	color: #732779;
+}
+
+.hcol-b1,
+.hcol-b2,
+.hcol-b3,
+.hcol-b4,
+.hcol-b5,
+.hcol-b6,
+.hcol-b7,
+.hcol-b8 {
+	flex: 2;
+	
+}
+.hcol-c1,
+.hcol-c2,
+.hcol-c3,
+.hcol-c4,
+.hcol-c5,
+.hcol-c6,
+.hcol-c7,
+.hcol-c8 {
+	flex: 1.2;
+}
+
+.small1,
+.small2 {
+	width: 76.6%;
+}
+	
+	
+	
+	
+.vcol-a {
+	flex: 1;
+	min-width: 224px;
+	flex: .7;
+	margin: 0px 15px 0px 15px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	letter-spacing: .5px;
+	line-height: 1.5em;
+	color: #732779;
+}
+
+.vcol-b1, 
+.vcol-b2,
+.vcol-b3 {
+	flex: 2.3;
+	min-width: 490px;
+	
+}
+.vcol-c1, 
+.vcol-c2,
+.vcol-c3 {
+	flex: 2.7;
+}
+
+
+.line1,
+.line2,
+.line3,
+.line4 {
+	flex-display: column;
+}
+
+.vsmall1,
+.vsmall2 {
+	width: 45%;
+}
+
+
+/**** ABOUT ****/
+
+.bio {
+	
+	display: flex;
+	height: 593px;
+	color: #732779;
+	padding-top: 150px;
+	padding-left: 98px;
+	font-size: 1em;
+	max-width: 545px;
+	line-height: 2em;
+	text-align: justify;
+	min-width: 545px;
+	height: 593px;
+	font-family: 'Dosis', sans-serif;
+	flex-display: column;
+}
+
+
+.megan {
+	flex-display: row;
+	padding-top: 160px;
+	padding-left: 98px;
+}
+
+.biogroup {
+    background-color: rgba(200, 207, 44, 0.75);
+    display: flex;
+    width: 100%;
+	margin: 0 auto;
+}
+
+
+/**** RESUME ****/
+
+
+
+.indent {
+	text-indent: 20px;
+}
+
+.summarygroup {
+    background-color: rgba(200, 207, 44, 0.75);
+	height: 593px;
+	font-family: 'Dosis', sans-serif;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.summary {
+	color: #732779;
+	padding-top: 180px;
+	padding-left: 150px;
+	font-size: 1em;
+	line-height: 1.5em;
+	min-width: 310px;
+	height: 650px;
+}
+
+.summary2 {
+	color: #732779;
+	padding-top: 180px;
+	padding-left: 98px;
+	font-size: 1em;
+	line-height: 1.5em;
+	min-width: 310px;
+	height: 650px;
+}
+
+.resumelink {
+	color: #732779;
+	padding-top: 180px;
+	padding-left: 98px;
+	font-size: 1em;
+	line-height: 1.5em;
+	min-width: 310px;
+	height: 650px;
+}
+
+.h2 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+.h3 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+
+/**** CONTACT ****/
+
+.contactgroup {
+    background-color: rgba(200, 207, 44, 0.75);
+	height: 593px;
+	font-family: 'Dosis', sans-serif;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.contact1 {
+	color: #732779;
+	padding-top: 144px;
+	padding-left: 98px;
+	font-size: 1em;
+	line-height: 1.5em;
+	min-width: 310px;
+	height: 650px;
+}
+
+.contact2 {
+	color: #732779;
+	padding-top: 172px;
+	padding-left: 98px;
+	font-size: 1em;
+	line-height: 1.5em;
+	min-width: 310px;
+	height: 650px;
+}
+
+
+
+.contacticons ul {
+	display: block;
+	text-decoration: none;
+}
+
+
+
+li .email,
+.linkedin,
+.twitter,
+.tumblr {
+ vertical-align: middle;
+ 
+}
+
+.iconimg {
+  vertical-align: middle;
+}
+
+
+
+/**** FOOTER ****/
+
+.footerbuffer {
+	padding-bottom: 30px;
+}
+
+
+.footer {
+	background: #732779;
+	text-align: center;
+	padding: 20px;
+	color: #ffffff;
+	margin-top: 15px;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: .5px;
+	font-weight: 400;
+
+	clear: both;
+}
+
+
+
+
+/*Media Queries*/
+
+
+
+@media screen and (min-width:320px) and (max-width:359px){
+	.nav li {
+		padding: 4px 0 4px 0;
+	}
+		
+		.navlg {
+		display: none;
+		}
+	.navsm {
+		display: block;
+		}
+		
+		.topteeth {
+	top: 33px;
+	} 	
+
+	.background {
+		height: 420px;
+	background: url("img/320.png") no-repeat;
+	}
+
+	.bottomteeth {
+	top: 407px;
+	}
+
+
+
+@media only screen and (min-device-width:360px) and (max-device-width:767px){
+	
+	.nav li {
+		padding: 4px 0 4px 0;
+	}
+	
+	.navlg {
+		display: none;
+		}
+	.navsm {
+		display: block;
+		}
+		
+	.topteeth {
+	top: 33px;
+} 
+
+
+	.background {
+		height: 520px;
+	background: url("img/360.png") no-repeat;
+}
+
+.bottomteeth {
+	top: 507px;
+}
+	
+	
+@media screen and (min-width:768px) and (max-width:799px){
+		.background {
+		width:
+	}
+	
+} 
+	
+	/**** 800 LANDSCAPE
+@media only screen and (min-width:800px) and (max-width:979px)
+and (orientation : landscape){
+		.background {
+		background: url("img/800_l.png") no-repeat;
+		width: 100%;
+	}
+	
+} 	 *****/
+
+/**** 800 PORTRAIT *****/	
+@media only screen and (min-device-width:800px) {
+		.background {
+		background: url("img/800_p.png") no-repeat;
+		width: 100%;
+	}
+	
+} 
+	
+/**** 980 LANDSCAPE *****/
+@media only screen and (min-device-width:980px) and (max-device-width:1279px) 
+and (orientation : portrait){
+	.background {
+	
+	background: url("img/980_l.png") no-repeat;
+	width: 100%;
+
+	}
+} 
+		
+	
+	
+/**** 980 PORTRAIT *****/
+@media screen and (min-device-width:980px) and (max-device-width:1279px)
+and (orientation : portrait){
+	.background {
+	
+	background: url("img/980_p.png") no-repeat;
+	height: 594px;
+	width: 100%;
+	}
+	
+	.bottomteeth {
+	top: 578px;
+	height: 60px;
+	width: 100%;	
+
+	}
+} 
+	
+/** 1280 LANDSCAPE px **/
+@media screen and (min-width:1280px) and (max-width:1919px) 
+and (orientation : landscape){
+	.background {
+	
+	background: url("img/1280_l.png") no-repeat;
+	height: 594px;
+	width: 100%;
+	}
+	
+	.bottomteeth {
+	top: 578px;
+	height: 60px;
+	width: 100%;	
+}
+
+
+
+@media screen and (min-width:1920px)
+and (orientation : landscape){
+	.background {
+		
+		width:
+		height:
+	}
+}
+
