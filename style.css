@@ -60,7 +60,34 @@
 	box-sizing: border-box;
 }
 
+.wrapnav ul{
+	display: flex;
+		justify-content: center;
+}
 
+.navdemo {
+	width: 100px;
+	height: 37px;
+	background-color: #732779;
+	color: white;
+	 display: flex;
+    align-items: center;
+    justify-content: center;
+	z-index: 90;
+    border-radius: 7px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	margin-left: 30px;
+
+margin-bottom: 13px;
+	margin-top: 10px;
+}
+
+.active {
+	background-color: #592161;
+	color: #C8CF2C;
+}
 
 .nav {
     margin: 0 auto;
@@ -72,23 +99,11 @@
 } 
 
 
-.nav li {
-	padding: 10px 30px 6px 0px;
-	
-
-}
-
-
 .nav a {
 	display: block;
-	text-decoration: none;
-	
-	
+	text-decoration: none;		
 }
 
-.navsm {
-		display: none;
-		}
 
 
 /****** OTHER *******/
@@ -140,14 +155,22 @@ width: 100%;
 
 .background {
 	
-	background: url('img/1280_l.png') no-repeat;
+	background: url('img/zigzag_tile3.png') repeat;
 	background-attachment: fixed;
 	height: 593px;
 	width: 100%;
-	/* background: url("img/background20.png") no-repeat; */
-	
+	box-shadow: inset 10px 0px 120px 60px rgba(89, 33, 97, 0.8);
 }
 
+.logo {
+	 display: block;
+    margin: auto;
+	padding-top: 95px;
+	/*box-shadow: 10px 0px 120px 60px rgba(89, 33, 97, 0.8);*/
+	
+	/*filter: drop-shadow(12px 12px 7px rgba(89,33,97,0.8));*/
+
+}
 
 .categorywrap {
 	width: 100%;
@@ -417,8 +440,13 @@ box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
 	width: 76.6%;
 }
 	
-	
-	
+.small1:hover,
+.small2:hover {	
+	-webkit-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+-moz-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+}
+
 	
 .vcol-a {
 	flex: 1;
@@ -456,6 +484,13 @@ box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
 .vsmall1,
 .vsmall2 {
 	width: 45%;
+}
+
+.vsmall1:hover,
+.vsmall2:hover {
+	-webkit-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+-moz-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
 }
 
 
