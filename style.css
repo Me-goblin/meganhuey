@@ -70,7 +70,7 @@
 	height: 37px;
 	background-color: #732779;
 	color: white;
-	 display: flex;
+	display: flex;
     align-items: center;
     justify-content: center;
 	z-index: 90;
@@ -80,7 +80,7 @@
 	font-weight: 500;
 	margin-left: 30px;
 
-margin-bottom: 13px;
+	margin-bottom: 13px;
 	margin-top: 10px;
 }
 
@@ -113,10 +113,10 @@ margin-bottom: 13px;
 	z-index: 10;
 	position: fixed;
 	top: 56px;
-background-image: url('img/top_zig_bg.png');
-background-repeat: repeat-x;
-height: 56px;
-width: 100%;	
+	background-image: url('img/top_zig_bg.png');
+	background-repeat: repeat-x;
+	height: 56px;
+	width: 100%;	
 
 }
 
@@ -172,24 +172,17 @@ width: 100%;
 
 }
 
-.categorywrap {
-	width: 100%;
-	height: 100%;
-
-}
-
 
 
 .bottomteeth {
 	top: 580px;
-position: absolute;
-background-image: url('img/bottom_zig_bg.png');
-background-repeat: repeat-x;
-height: 60px;
-width: 100%;	
+	position: absolute;
+	background-image: url('img/bottom_zig_bg.png');
+	background-repeat: repeat-x;
+	height: 60px;
+	width: 100%;	
 
 }
-
 
 
 .text {
@@ -198,9 +191,39 @@ width: 100%;
 }
 
 
+
+
 /******** OLD CHECKBOXES ********/
 
-.categorywrap {
+
+
+.catsection {
+	width: 700px;
+	height: 20px;
+	background-color: #732779;
+	color: white;
+    align-items: center;
+    justify-content: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	 border-radius: 7px;
+	margin-bottom: 10px;
+
+}
+
+.categorylabel {
+	width: 80px;
+	height: 20px;
+	background-color: white;
+	color: #732779;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	margin-bottom: 10px;
 
 }
 
@@ -209,14 +232,13 @@ width: 100%;
 	background-color: #ffffff;
 	text-align: center;
 	list-style-type: none;
-	width: 80%;
-	margin: 0 0 0 45px;
-		
-}
+	
+display: flex;
+flex-direction: column;
 
-.category ul {
-	width: 85%;
-	margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+	
 }
 
 
@@ -229,16 +251,6 @@ width: 100%;
 	
 }
 
-
-
-.label {
-	display: block;
-	font-family: 'Dosis', sans-serif;
-	font-size: 1em;
-	word-spacing: 3.7em;
-	text-align: justify;
-	padding: 0 0 0 25px;
-}
 
 
 /******** NEW CHECKBOXES ********/
@@ -330,30 +342,55 @@ width: 100%;
 
 /******** GALLERY ********/
 
+.groupwrap ul {
+	display: flex;
+	flex-direction: row;
+	
+/*	align-items: center;
+    justify-content: center; */
 
-
-.button {
-	width: 354px;
-	height: 266px;
-position: relative;
-display: inline;
-flex-wrap: wrap;
-flex-flow: row wrap;
-display: inline-flex;
 }
 
+.groupwrap li {
+	padding: 10px 10px;
+	
+
+}
 
 
 .gallery {
 	margin: auto;
 	width: 90%;
+	
 }
 
 .gallery li {
 	flex-wrap: wrap;
-position: relative;
-display: inline;
-flex-flow: row wrap;
+	position: relative;
+	display: inline;
+	flex-flow: row wrap;
+	
+
+}
+
+
+
+.button {
+	width: 354px;
+	height: 266px;
+	position: relative;
+	
+ 	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+
+.button:hover {
+	-webkit-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+	-moz-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+	box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
 }
 
 
@@ -370,35 +407,6 @@ flex-flow: row wrap;
 
 .group2 {
 	background-color: #c8cf2c;
-}
-
-
-
-.groupwrap ul {
-	display: flex;
-	flex-direction: row;
-
-}
-
-.groupwrap li {
-	padding: 10px 10px;
-
-}
-
-
-.button {
-  display: inline-flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	list-style-type: none;
-position: relative;
-}
-
-
-.button:hover {
--webkit-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
--moz-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
 }
 
 
@@ -442,9 +450,10 @@ box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
 	
 .small1:hover,
 .small2:hover {	
-	-webkit-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
--moz-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+	-webkit-box-shadow: 0px 0px 0px 6px #888888;
+	-moz-box-shadow: 0px 0px 0px 6px #888888;
+	box-shadow: 0px 0px 0px 6px #888888;
+
 }
 
 	
@@ -488,9 +497,9 @@ box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
 
 .vsmall1:hover,
 .vsmall2:hover {
-	-webkit-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
--moz-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+	-webkit-box-shadow: 0px 0px 0px 6px #888888;
+	-moz-box-shadow: 0px 0px 0px 6px #888888;
+	box-shadow: 0px 0px 0px 6px #888888;
 }
 
 
