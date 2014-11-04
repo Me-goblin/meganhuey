@@ -750,6 +750,31 @@ li .email,
 }
 }
 
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+		.gallery {
+	width: 70%; }
+	
+	
+	.navdemo {
+	width: 60px;
+	height: 37px;
+	background-color: #732779;
+	color: white;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	z-index: 90;
+    border-radius: 7px;
+	font-family: 'Dosis', sans-serif;
+	font-size: .8em;
+	font-weight: 500;
+	margin-left: 10px;
+
+	margin-bottom: 13px;
+	margin-top: 10px;
+}
+}
+
 
 
 
