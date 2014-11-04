@@ -92,6 +92,7 @@ $( "#all1").prop('checked', true);
 $(document).ready(function(){
 $('.phrasebookgroup').hide();
 $('.phrasebook').click(function() {
+	$('.2, .3, .4, .5, .6, .7, .8, .9, .10, .11').hide();
 $('.phrasebookgroup').fadeToggle();
 });
 
@@ -112,6 +113,7 @@ $('.hcol-c1 img').click(function() {
 $(document).ready(function(){
 $('.platypusgroup').hide();
 $('.platypus').click(function() {
+$('.1, .3, .4, .5, .6, .7, .8, .9, .10, .11').hide();
 $('.platypusgroup').fadeToggle();
 });
 
@@ -132,6 +134,7 @@ $('.hcol-c2 img').click(function() {
 $(document).ready(function(){
 $('.vitaminsgroup').hide();
 $('.vitamins').click(function() {
+$('.1, .2, .4, .5, .6, .7, .8, .9, .10, .11').hide();
 $('.vitaminsgroup').fadeToggle();
 });
 
@@ -150,6 +153,7 @@ $('.hcol-c3 img').click(function() {
 $(document).ready(function(){
 $('.steamlinegroup').hide();
 $('.steamline').click(function() {
+$('.1, .2, .3, .5, .6, .7, .8, .9, .10, .11').hide();
 $('.steamlinegroup').fadeToggle();
 });
 
@@ -169,6 +173,7 @@ $('.hcol-c4 img').click(function() {
 $(document).ready(function(){
 $('.mushroomgroup').hide();
 $('.mushroom').click(function() {
+$('.1, .2, .3, .4, .6, .7, .8, .9, .10, .11').hide();
 $('.mushroomgroup').fadeToggle();
 });
 
@@ -188,6 +193,7 @@ $('.hcol-c5 img').click(function() {
 $(document).ready(function(){
 $('.f3postergroup').hide();
 $('.f3poster').click(function() {
+$('.1, .2, .3, .4, .5, .7, .8, .9, .10, .11').hide();
 $('.f3postergroup').fadeToggle();
 });
 
@@ -207,6 +213,7 @@ $('.vcol-c1 img').click(function() {
 $(document).ready(function(){
 $('.okonomigroup').hide();
 $('.okonomi').click(function() {
+$('.1, .2, .3, .4, .5, .6, .8, .9, .10, .11').hide();
 $('.okonomigroup').fadeToggle();
 });
 
@@ -225,6 +232,7 @@ $('.vcol-c2 img').click(function() {
 $(document).ready(function(){
 $('.drwhogroup').hide();
 $('.drwho').click(function() {
+$('.1, .2, .3, .4, .5, .6, .7, .9, .10, .11').hide();
 $('.drwhogroup').fadeToggle();
 });
 
@@ -244,6 +252,7 @@ $('.hcol-c6 img').click(function() {
 $(document).ready(function(){
 $('.froggroup').hide();
 $('.frog').click(function() {
+$('.1, .2, .3, .4, .5, .6, .7, .8, .10, .11').hide();
 $('.froggroup').fadeToggle();
 });
 
@@ -262,6 +271,7 @@ $('.vcol-c3 img').click(function() {
 $(document).ready(function(){
 $('.lagoongroup').hide();
 $('.lagoon').click(function() {
+$('.1, .2, .3, .4, .5, .6, .7, .8, .9, .11').hide();
 $('.lagoongroup').fadeToggle();
 });
 
@@ -281,6 +291,7 @@ $('.hcol-c7 img').click(function() {
 $(document).ready(function(){
 $('.meowcolasgroup').hide();
 $('.meowcolas').click(function() {
+$('.1, .2, .3, .4, .5, .6, .7, .8, .9, .10').hide();
 $('.meowcolasgroup').fadeToggle();
 });
 

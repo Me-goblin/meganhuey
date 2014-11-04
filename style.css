@@ -521,32 +521,43 @@
 .bio {
 	
 	display: flex;
-	height: 593px;
+
 	color: #732779;
-	padding-top: 150px;
-	padding-left: 98px;
+
 	font-size: 1em;
 	max-width: 545px;
 	line-height: 2em;
 	text-align: justify;
 	min-width: 545px;
-	height: 593px;
+
 	font-family: 'Dosis', sans-serif;
 	flex-display: column;
+	
+	padding-top: 300px;
+	
+	
 }
 
 
 .megan {
-	flex-display: row;
-	padding-top: 160px;
-	padding-left: 98px;
+
+
 }
 
 .biogroup {
     background-color: rgba(200, 207, 44, 0.75);
     display: flex;
     width: 100%;
-	margin: 0 auto;
+	align-items: center;
+    justify-content: center;
+	
+	height: 595px;
+
+}
+
+.biogroup li {
+	padding: 30px;
+	flex-display: row;
 }
 
 
@@ -554,73 +565,8 @@
 
 
 
-.indent {
-	text-indent: 20px;
-}
-
-.summarygroup {
-    background-color: rgba(200, 207, 44, 0.75);
-	height: 593px;
-	font-family: 'Dosis', sans-serif;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: row;
-}
-
-
-.summary {
-	color: #732779;
-	padding-top: 180px;
-	padding-left: 150px;
-	font-size: 1em;
-	line-height: 1.5em;
-	min-width: 310px;
-	height: 650px;
-}
-
-.summary2 {
-	color: #732779;
-	padding-top: 180px;
-	padding-left: 98px;
-	font-size: 1em;
-	line-height: 1.5em;
-	min-width: 310px;
-	height: 650px;
-}
-
-.resumelink {
-	color: #732779;
-	padding-top: 180px;
-	padding-left: 98px;
-	font-size: 1em;
-	line-height: 1.5em;
-	min-width: 310px;
-	height: 650px;
-}
-
-.h2 {
-	font-family: 'Dosis', sans-serif;
-	font-weight: 600;
-	font-size: 1.2em;
-}
-
-.h3 {
-	font-family: 'Dosis', sans-serif;
-	font-weight: 500;
-	font-size: 1.2em;
-}
-
-
 /**** CONTACT ****/
 
-.contactgroup {
-    background-color: rgba(200, 207, 44, 0.75);
-	height: 593px;
-	font-family: 'Dosis', sans-serif;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: row;
-}
 
 
 .contact1 {
@@ -663,6 +609,22 @@ li .email,
 .iconimg {
   vertical-align: middle;
 }
+
+
+.contactgroup {
+    background-color: rgba(200, 207, 44, 0.75);
+
+	font-family: 'Dosis', sans-serif;
+
+	display: flex;
+	flex-direction: row;
+	
+		align-items: center;
+    justify-content: center;
+	
+	height: 595px;
+}
+
 
 
 
@@ -711,7 +673,10 @@ li .email,
 
 	}
 
-
+	.biogroup,
+	.contactgroup {
+		height: 800px;
+	}
 
 }
 
@@ -751,7 +716,7 @@ li .email,
 }
 
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
-		.gallery {
+	.gallery {
 	width: 70%; }
 	
 	
@@ -761,6 +726,7 @@ li .email,
 	background-color: #732779;
 	color: white;
 	display: flex;
+	
     align-items: center;
     justify-content: center;
 	z-index: 90;
@@ -772,7 +738,10 @@ li .email,
 
 	margin-bottom: 13px;
 	margin-top: 10px;
-}
+	
+	flex-direction: column;
+	}
+
 }
 
 
