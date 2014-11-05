@@ -666,8 +666,6 @@ li .email,
 	
 	
 
-	
-	
 		.button {
 		width: 107.722px;
 		height: 80.945px;
@@ -691,6 +689,7 @@ li .email,
 
 	margin-bottom: 13px;
 	margin-top: 10px;
+	flex-direction: column;
 }
 
 
@@ -815,6 +814,7 @@ li .email,
 
 	margin-bottom: 13px;
 	margin-top: 10px;
+	flex-direction: column;
 }
 
 
@@ -940,6 +940,7 @@ li .email,
 
 	margin-bottom: 13px;
 	margin-top: 10px;
+	flex-direction: column;
 }
 
 
