@@ -61,8 +61,13 @@
 }
 
 .wrapnav ul{
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	
 	display: flex;
-		justify-content: center;
+	justify-content: center;
 }
 
 .navdemo {
@@ -70,6 +75,10 @@
 	height: 37px;
 	background-color: #732779;
 	color: white;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
     align-items: center;
     justify-content: center;
@@ -158,6 +167,10 @@
 	background-attachment: fixed;
 	height: 593px;
 	width: 100%;
+	-webkit-box-shadow: inset 10px 0px 120px 60px rgba(89, 33, 97, 0.8);
+	-moz-box-shadow: inset 10px 0px 120px 60px rgba(89, 33, 97, 0.8);
+	-ms-box-shadow: inset 10px 0px 120px 60px rgba(89, 33, 97, 0.8);
+	-o-box-shadow: inset 10px 0px 120px 60px rgba(89, 33, 97, 0.8);
 	box-shadow: inset 10px 0px 120px 60px rgba(89, 33, 97, 0.8);
 }
 
@@ -238,8 +251,15 @@
 	background-color: #ffffff;
 	text-align: center;
 	list-style-type: none;
-	
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
 	flex-direction: column;
 
     align-items: center;
@@ -250,6 +270,16 @@
 
 
 .liall {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
 	display: flex;
 	flex-direction: column;
 	margin-right: 10px;
@@ -331,8 +361,20 @@
 */
 
 .category ul {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
 	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 	list-style-type: none;
 }
@@ -349,7 +391,15 @@
 /******** GALLERY ********/
 
 .groupwrap ul {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
 	flex-direction: row;
 
 /*	align-items: center;
@@ -381,9 +431,17 @@
 }
 
 .gallery li {
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 	position: relative;
 	display: inline;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	-o-flex-flow: row wrap;
 	flex-flow: row wrap;
 
 	padding: 10px; /*spacing remains even if item is display:none*/
@@ -397,15 +455,29 @@
 	width: 354px;
 	height: 266px;
 	position: relative;
-	
+	-webkit-display: inline-flex;
+	-moz-display: inline-flex;
+	-ms-display: inline-flex;
+	-o-display: inline-flex;
  	display: inline-flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
 	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 	list-style-type: none;
 }
 
 
 .button:hover {
+	-ms-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+	-o-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
+	
 	-webkit-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
 	-moz-box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
 	box-shadow: 0px 0px 0px 6px rgba(200,207,44,1);
@@ -414,6 +486,10 @@
 
 
 .group {
+	-webkit-display: inline-flex;
+	-moz-display: inline-flex;
+	-ms-display: inline-flex;
+	-o-display: inline-flex;
 	display: inline-flex;
 	background-color: #e7e290;
 	width: 100%;
@@ -430,6 +506,10 @@
 
 
 .hcol-a {
+	-webkit-flex: .7;
+	-moz-flex: .7;
+	-ms-flex: .7;
+	-o-flex: .7;
 	flex: .7;
 	margin: 0px 15px 0px 15px;
 	font-family: 'Dosis', sans-serif;
@@ -447,6 +527,10 @@
 .hcol-b6,
 .hcol-b7,
 .hcol-b8 {
+	-webkit-flex: 2;
+	-moz-flex: 2;
+	-ms-flex: 2;
+	-o-flex: 2;
 	flex: 2;
 	
 }
@@ -459,6 +543,10 @@
 .hcol-c6,
 .hcol-c7,
 .hcol-c8 {
+	-webkit-flex: 1.2;
+	-moz-flex: 1.2;
+	-ms-flex: 1.2;
+	-o-flex: 1.2;
 	flex: 1.2;
 }
 
@@ -469,6 +557,8 @@
 	
 .small1:hover,
 .small2:hover {	
+	-ms-box-shadow: 0px 0px 0px 6px #888888;
+	-o-box-shadow: 0px 0px 0px 6px #888888;
 	-webkit-box-shadow: 0px 0px 0px 6px #888888;
 	-moz-box-shadow: 0px 0px 0px 6px #888888;
 	box-shadow: 0px 0px 0px 6px #888888;
@@ -477,8 +567,16 @@
 
 	
 .vcol-a {
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
 	flex: 1;
 	min-width: 224px;
+	-webkit-flex: .7;
+	-moz-flex: .7;
+	-ms-flex: .7;
+	-o-flex: .7;
 	flex: .7;
 	margin: 0px 15px 0px 15px;
 	font-family: 'Dosis', sans-serif;
@@ -491,6 +589,10 @@
 .vcol-b1, 
 .vcol-b2,
 .vcol-b3 {
+	-webkit-flex: 2.3;
+	-moz-flex: 2.3;
+	-ms-flex: 2.3;
+	-o-flex: 2.3;
 	flex: 2.3;
 	min-width: 490px;
 	
@@ -498,6 +600,10 @@
 .vcol-c1, 
 .vcol-c2,
 .vcol-c3 {
+	-webkit-flex: 2.7;
+	-moz-flex: 2.7;
+	-ms-flex: 2.7;
+	-o-flex: 2.7;
 	flex: 2.7;
 }
 
@@ -506,6 +612,10 @@
 .line2,
 .line3,
 .line4 {
+	-webkit-flex-display: column;
+	-moz-flex-display: column;
+	-ms-flex-display: column;
+	-o-flex-display: column;
 	flex-display: column;
 }
 
@@ -516,6 +626,8 @@
 
 .vsmall1:hover,
 .vsmall2:hover {
+	-ms-box-shadow: 0px 0px 0px 6px #888888;
+	-o-box-shadow: 0px 0px 0px 6px #888888;
 	-webkit-box-shadow: 0px 0px 0px 6px #888888;
 	-moz-box-shadow: 0px 0px 0px 6px #888888;
 	box-shadow: 0px 0px 0px 6px #888888;
@@ -525,7 +637,10 @@
 /**** ABOUT ****/
 
 .bio {
-	
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
 
 	color: #732779;
@@ -537,6 +652,11 @@
 	min-width: 545px;
 
 	font-family: 'Dosis', sans-serif;
+	
+	-webkit-flex-display: column;
+	-moz-flex-display: column;
+	-ms-flex-display: column;
+	-o-flex-display: column;
 	flex-display: column;
 	
 	padding-top: 300px;
@@ -552,6 +672,10 @@
 
 .biogroup {
     background-color: rgba(200, 207, 44, 0.75);
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
     display: flex;
     width: 100%;
 	align-items: center;
@@ -563,6 +687,10 @@
 
 .biogroup li {
 	padding: 30px;
+	-webkit-flex-display: row;
+	-moz-flex-display: row;
+	-ms-flex-display: row;
+	-o-flex-display: row;
 	flex-display: row;
 }
 
@@ -621,8 +749,16 @@ li .email,
     background-color: rgba(200, 207, 44, 0.75);
 
 	font-family: 'Dosis', sans-serif;
-
+	
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
 	flex-direction: row;
 	
 		align-items: center;
@@ -679,6 +815,11 @@ li .email,
 	height: 37px;
 	background-color: #732779;
 	color: white;
+	
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
     align-items: center;
     justify-content: center;
@@ -810,6 +951,10 @@ li .email,
 	margin-bottom: 13px;
 	margin-top: 10px;
 	
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
 	flex-direction: column;
 	}
 	
@@ -886,7 +1031,15 @@ li .email,
 
 	font-family: 'Dosis', sans-serif;
 
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
 	flex-direction: row;
 	
 		align-items: center;
