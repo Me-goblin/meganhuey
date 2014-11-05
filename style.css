@@ -661,6 +661,130 @@ li .email,
 
 
 
+@media screen and (device-width: 300px) and (device-height: 240px) and (-webkit-device-pixel-ratio: 2) {
+
+	
+	
+
+	
+	
+		.button {
+		width: 107.722px;
+		height: 80.945px;
+	}
+	
+	
+	.navdemo {
+	width: 60px;
+	height: 37px;
+	background-color: #732779;
+	color: white;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	z-index: 90;
+    border-radius: 7px;
+	font-family: 'Dosis', sans-serif;
+	font-size: .8em;
+	font-weight: 500;
+	margin-left: 10px;
+
+	margin-bottom: 13px;
+	margin-top: 10px;
+}
+
+
+	.catsection {
+	display: none;
+
+	}
+
+
+	.category {
+	display: none;
+	
+	}
+
+.group {
+	display: block;
+	background-color: #e7e290;
+	width: 100%;
+	border: 3px solid white;
+	padding: 5px 0px 5px 10px;
+
+
+}
+
+
+
+
+
+.hcol-a,
+.vcol-a {
+	margin: 0px 2px 0px 2px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	line-height: 1.5em;
+	color: #732779;
+	display: block;
+}
+
+.hcol-b1,
+.hcol-b2,
+.hcol-b3,
+.hcol-b4,
+.hcol-b5,
+.hcol-b6,
+.hcol-b7,
+.hcol-b8,
+.vcol-b1, 
+.vcol-b2,
+.vcol-b3 {
+	display: block;
+	
+}
+
+.hcol-c1,
+.hcol-c2,
+.hcol-c3,
+.hcol-c4,
+.hcol-c5,
+.hcol-c6,
+.hcol-c7,
+.hcol-c8,
+.vcol-c1, 
+.vcol-c2,
+.vcol-c3 {
+	display: inline;
+}
+
+.small1,
+.small2 {
+		width: 77px;
+		display: inline;
+
+}
+
+
+.vsmall1,
+.vsmall2 {
+	width: 57.843px;
+	display: inline;
+}
+
+.hlarge {
+	width: 229.055px;
+	padding-top: 10px;
+}
+
+.vlarge {
+	width: 172.069px;
+	padding-top: 10px;
+	
+}
+
+}
+
 
 
 @media screen and (min-width:300px) and (max-width:550px){
