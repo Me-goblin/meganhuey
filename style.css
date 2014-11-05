@@ -899,6 +899,30 @@ li .email,
 }
 
 
+
+
+
+
+
+@media screen and (min-width:1138px) and (max-width:1303px){
+	
+	.button {
+		width: 290.698px;
+		height: 218.376px;
+	}
+}
+
+
+@media screen and (min-width:863px) and (max-width:1618px){
+	
+	.button {
+		width: 229.055px;
+		height: 172.069px;
+	}
+}
+
+
+
 @media screen and (min-width: 300px) and (max-width: 1919px) {
 	.logo_large {
 		display: none;
@@ -948,6 +972,14 @@ li .email,
 @media screen and (min-width:1290px) and (max-width:1604px){
 	.gallery {
 	width: 70%; }
+}
+
+@media screen and (min-width: 565px) and (max-width:876px){
+	
+	.button {
+		width: 290.698px;
+		height: 218.376px;
+	}
 }
 
 
