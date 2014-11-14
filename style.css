@@ -408,7 +408,6 @@ text-align: center;
 
 .gallery li {
 	
-
 	display: inline;
 
 	width: 100%;
@@ -855,5 +854,8 @@ li .email,
 		display: none;
 	}
 
+.gallery {
+	z-index: 9;
+}
 
 }
