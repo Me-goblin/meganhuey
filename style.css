@@ -862,4 +862,8 @@ li .email,
 	.button {
 		z-index: 16;
 	}
+	
+	.background {
+		background: none;
+	}
 }
