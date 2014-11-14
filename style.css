@@ -85,7 +85,7 @@
 	margin: 0 auto;
 	list-style-type: none;
 	background: #ffffff;
-	z-index: 30;
+	z-index: 20;
 	height: 60px;
 } 
 
@@ -135,7 +135,7 @@
 
 
 .topteeth {
-	z-index: 20;
+	z-index: 21;
 	position: fixed;
 	top: 56px;
 	background-image: url('img/top_zig_bg.png');
