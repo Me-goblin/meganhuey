@@ -854,14 +854,6 @@ li .email,
 		display: none;
 	}
 
-.gallery {
-	z-index: 15;
-}
-
-	
-	.button {
-		z-index: 16;
-	}
 	
 	.background {
 		background: none;
