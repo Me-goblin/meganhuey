@@ -61,16 +61,6 @@
 }
 
 
-.test {
-	/*align-items: center;
-    justify-content: center;
-	vertical-align: middle;
-	
-	text-align: center;*/
-	
-}
-
-
 
 .wrapnav ul{
 	width: 100%;
@@ -392,7 +382,7 @@ text-align: center;
 
 .gallery ul {
 	width: 100%;
-		margin: 0 auto;
+	margin: 0 auto;
 		
 	
 
@@ -409,9 +399,10 @@ text-align: center;
 .gallery li {
 	
 	display: inline;
-
-	width: 100%;
-	height: auto;
+	
+/****** CAUSES CIRCLES TO ALIGN VERTICAL *******/
+	/*width: 100%;
+	height: auto;*/
 }
 
 
@@ -440,17 +431,7 @@ text-align: center;
 
 
 
-.group {
 
-	background-color: #e7e290;
-	width: 100%;
-	border: 7px solid white;
-	padding: 20px 0px 20px 0px;
-
-	column-count: 3;
-	-moz-column-count: 3;
-
-}
 
 
 .group2 {
@@ -461,109 +442,85 @@ text-align: center;
 
 
 
-.hcol-a {
+/******** FLEX SLIDE BEGIN *********/
 
-	margin: 0px 15px 0px 15px;
-	font-family: 'Dosis', sans-serif;
-	font-weight: 400;
-	letter-spacing: .5px;
-	line-height: 1.5em;
-	color: #732779;
-	width: 250px;
 
+
+.test {
+	/*align-items: center;
+    justify-content: center;
+	vertical-align: middle;
+	
+	text-align: center;*/
 	
 }
 
-.hcol-b1,
-.hcol-b2,
-.hcol-b3,
-.hcol-b4,
-.hcol-b5,
-.hcol-b6,
-.hcol-b7,
-.hcol-b8 {
-	display: inline;
+.group {
+
+	background-color: #e7e290;
 	width: 100%;
+	border: 7px solid white;
+	padding: 20px 0px 20px 0px;
 
 }
 
-.hcol-c1,
-.hcol-c2,
-.hcol-c3,
-.hcol-c4,
-.hcol-c5,
-.hcol-c6,
-.hcol-c7,
-.hcol-c8 {
-	display: inline-block;
+
+.aligngroup {
+		column-count: 2;
+		-moz-column-count:2;
+		margin: 0 0 0 30px;
 
 
 }
 
-.small1,
-.small2 {
-	
-	width: 48%;
-}
-	
-.small1:hover,
-.small2:hover {	
-	-ms-box-shadow: 0px 0px 0px 6px #888888;
-	-o-box-shadow: 0px 0px 0px 6px #888888;
-	-webkit-box-shadow: 0px 0px 0px 6px #888888;
-	-moz-box-shadow: 0px 0px 0px 6px #888888;
-	box-shadow: 0px 0px 0px 6px #888888;
 
-}
-
-	
-.vcol-a {
-
-	min-width: 224px;
-
-	margin: 0px 15px 0px 15px;
+.hcol-a {
+	text-align: left;
+	margin: 0px 15px 20px 15px;
 	font-family: 'Dosis', sans-serif;
 	font-weight: 400;
 	letter-spacing: .5px;
+
+	
 	line-height: 1.5em;
 	color: #732779;
-	width: 250px;
+	max-width: 250px;
+	
+display: inline-block;
+	position: relative;
+	float: left;
+
 }
 
-.vcol-b1, 
-.vcol-b2,
-.vcol-b3 {
-	min-width: 490px;
+
+
+.hflexcontainer {
+	
+	max-width: 619px;
+	height: auto;
+	margin: 0px 15px 0px 15px;
+
+}
+
+.vflexcontainer {
+	max-width: 465px;
+  height: auto;  
+  margin: 0px 15px 0px 15px;
 	
 }
-.vcol-c1, 
-.vcol-c2,
-.vcol-c3 {
-	display: inline;
+
+.bigcontainer {
+}
+
+
+.flex-control-nav flex-control-paging li {
 
 }
 
 
-.line1,
-.line2,
-.line3,
-.line4 {
-}
+/******* FLEX SLIDE END **********/
 
-.vsmall1,
-.vsmall2 {
-	width: 37%;
-	display: inline;
-}
 
-.vsmall1:hover,
-.vsmall2:hover {
-	-ms-box-shadow: 0px 0px 0px 6px #888888;
-	-o-box-shadow: 0px 0px 0px 6px #888888;
-	-webkit-box-shadow: 0px 0px 0px 6px #888888;
-	-moz-box-shadow: 0px 0px 0px 6px #888888;
-	box-shadow: 0px 0px 0px 6px #888888;
-}
 
 
 /**** ABOUT ****/
@@ -679,63 +636,6 @@ li .email,
 
 
 
-
-/*
-.contact1 {
-	color: #732779;
-	font-size: 1em;
-	line-height: 1.5em;
-		display: inline;
-}
-
-.contact2 {
-	color: #732779;
-	font-size: 1em;
-	line-height: 1.5em;
-	display: inline;
-	
-	min-width: 310px;
-}
-
-
-
-.contactgroup {
-    background-color: rgba(200, 207, 44, 0.75);
-	font-family: 'Dosis', sans-serif;
-	padding-top: 144px;
-	text-align: center;
-	height: 595px;
-	
-	
-}
-
-
-
-.contacticons ul {
-	display: block;
-	text-decoration: none;
-}
-
-
-
-li .email,
-.linkedin,
-.twitter,
-.tumblr {
- vertical-align: middle;
- 
-}
-
-.iconimg {
-  vertical-align: middle;
-}
-
-*/
-
-
-
-
-
 /**** FOOTER ****/
 
 .footerbuffer {
@@ -784,6 +684,32 @@ li .email,
 	}
 
 
+}
+
+
+
+@media screen and (max-width:1266px) {
+	
+	
+	.hcol-a {
+	text-align: left;
+	margin: 0px 15px 0px 15px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	letter-spacing: .5px;
+	line-height: 1.5em;
+	color: #732779;
+	max-width: 250px;
+
+	font-size: .9em;
+
+}
+
+.aligngroup {
+	width: 100%;
+}
+	
+	
 }
 
 
@@ -857,4 +783,22 @@ li .email,
 	.background {
 		background: none;
 	}
+	
+	.flex-direction-nav a:before{
+		opacity: 0.4;
+
+	}
+}
+
+@media screen and (max-width:963px) {
+	.aligngroup {
+		column-count: 1;
+		-moz-column-count: 1;
+	}
+	
+	.hcol-a {
+		display: block;
+	}
+	
+	
 }

@@ -115,14 +115,7 @@ $('.phrasebookgroup').fadeToggle();
 });
 
 
-$('.hcol-c1 img').click(function() {
-    var thmb = this;
-    var src = this.src;
-    $('.hcol-b1 img').fadeOut(200,function(){
-        thmb.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
 
@@ -136,14 +129,7 @@ $('.platypusgroup').fadeToggle();
 });
 
 
-$('.hcol-c2 img').click(function() {
-    var thmb2 = this;
-    var src = this.src;
-    $('.hcol-b2 img').fadeOut(200,function(){
-        thmb2.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
 
@@ -157,14 +143,7 @@ $('.vitaminsgroup').fadeToggle();
 });
 
 
-$('.hcol-c3 img').click(function() {
-    var thmb3 = this;
-    var src = this.src;
-    $('.hcol-b3 img').fadeOut(200,function(){
-        thmb3.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
 
@@ -176,14 +155,7 @@ $('.steamlinegroup').fadeToggle();
 });
 
 
-$('.hcol-c4 img').click(function() {
-    var thmb4 = this;
-    var src = this.src;
-    $('.hcol-b4 img').fadeOut(200,function(){
-        thmb4.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
 
@@ -196,14 +168,7 @@ $('.mushroomgroup').fadeToggle();
 });
 
 
-$('.hcol-c5 img').click(function() {
-    var thmb5 = this;
-    var src = this.src;
-    $('.hcol-b5 img').fadeOut(200,function(){
-        thmb5.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
 
@@ -216,14 +181,7 @@ $('.f3postergroup').fadeToggle();
 });
 
 
-$('.vcol-c1 img').click(function() {
-    var thmb6 = this;
-    var src = this.src;
-    $('.vcol-b1 img').fadeOut(200,function(){
-        thmb6.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
 
@@ -236,14 +194,7 @@ $('.okonomigroup').fadeToggle();
 });
 
 
-$('.vcol-c2 img').click(function() {
-    var thmb7 = this;
-    var src = this.src;
-    $('.vcol-b2 img').fadeOut(200,function(){
-        thmb7.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
 
@@ -255,14 +206,7 @@ $('.drwhogroup').fadeToggle();
 });
 
 
-$('.hcol-c6 img').click(function() {
-    var thmb8 = this;
-    var src = this.src;
-    $('.hcol-b6 img').fadeOut(200,function(){
-        thmb8.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
 
@@ -275,14 +219,7 @@ $('.froggroup').fadeToggle();
 });
 
 
-$('.vcol-c3 img').click(function() {
-    var thmb9 = this;
-    var src = this.src;
-    $('.vcol-b3 img').fadeOut(200,function(){
-        thmb9.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
 
@@ -294,14 +231,7 @@ $('.lagoongroup').fadeToggle();
 });
 
 
-$('.hcol-c7 img').click(function() {
-    var thmb10 = this;
-    var src = this.src;
-    $('.hcol-b7 img').fadeOut(200,function(){
-        thmb10.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
 
@@ -314,13 +244,6 @@ $('.meowcolasgroup').fadeToggle();
 });
 
 
-$('.hcol-c8 img').click(function() {
-    var thmb11 = this;
-    var src = this.src;
-    $('.hcol-b8 img').fadeOut(200,function(){
-        thmb11.src = this.src;
-        $(this).fadeIn(200)[0].src = src;
-    });
-});
+
 });
 
