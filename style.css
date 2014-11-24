@@ -467,7 +467,8 @@ text-align: center;
 
 .aligngroup {
 		column-count: 2;
-		-moz-column-count:2;
+		-moz-column-count: 2;
+		-webkit-column-count:2;
 		margin: 0 0 0 30px;
 
 
@@ -500,6 +501,13 @@ display: inline-block;
 	height: auto;
 	margin: 0px 15px 0px 15px;
 
+}
+
+
+.hflexcontainer2 {
+	max-width: 760px;
+	height: auto;
+	margin: 0px 15px 0px 15px;
 }
 
 .vflexcontainer {
