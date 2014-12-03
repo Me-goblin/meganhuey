@@ -142,19 +142,6 @@
 
 	
 
-.welcome {
-	padding-top: 120px;
-	padding-left: 70px;
-	font-size: 1em;
-	color: #922d90;
-	max-width: 25%;
-	line-height: 2em;
-	text-align: justify;
-	min-width: 310px;
-	font-family: 'Dosis', sans-serif;
-	visibility: hidden;
-	
-}
 
 .wtext { 
 	background-color:#ffffff; 
@@ -434,14 +421,6 @@ text-align: center;
 
 
 
-.group2 {
-	background-color: #c8cf2c;
-	column-count: 3;
--moz-column-count: 3;
-}
-
-
-
 /******** FLEX SLIDE BEGIN *********/
 
 
@@ -471,7 +450,12 @@ text-align: center;
 		-webkit-column-count:2;
 		margin: 0 0 0 30px;
 
+}
 
+.h3 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
 }
 
 
@@ -638,6 +622,7 @@ li .email,
     justify-content: center;
 	
 	height: 595px;
+	
 }
 
 
