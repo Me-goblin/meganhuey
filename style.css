@@ -157,10 +157,11 @@
 
 
 .background {
-	padding-top: 95px;
+	padding-top: 120px;
 	background: url('img/zigzag_tile3.png') repeat;
 	background-attachment: fixed;
-	height: 593px;
+	height: 400px;
+	/*height: 593px; */
 	width: 100%;
 	-webkit-box-shadow: inset 10px 0px 120px 60px rgba(89, 33, 97, 0.8);
 	-moz-box-shadow: inset 10px 0px 120px 60px rgba(89, 33, 97, 0.8);
@@ -172,17 +173,19 @@
 .wpcontainer {
 	width: 100%;
 	height: auto;
+
 }
 
 .logo_large {
 	display: block;
     margin: auto;
+	width: 280px;
 	
-	width: 228.578px;
 	height: auto;
 	/*box-shadow: 10px 0px 120px 60px rgba(89, 33, 97, 0.8);*/
 	
 	/*filter: drop-shadow(12px 12px 7px rgba(89,33,97,0.8));*/
+	
 
 }
 
@@ -195,7 +198,8 @@
 
 
 .bottomteeth {
-	top: 580px;
+	top: 386px;
+	/*top: 580px; */
 	position: absolute;
 	background-image: url('img/bottom_zig_bg.png');
 	background-repeat: repeat-x;
@@ -203,6 +207,19 @@
 	width: 100%;	
 
 }
+
+
+.abottomteeth {
+top: 580px;
+	/*top: 580px; */
+	position: absolute;
+	background-image: url('img/bottom_zig_bg.png');
+	background-repeat: repeat-x;
+	height: 60px;
+	width: 100%;	
+
+}
+
 
 
 .text {
@@ -549,6 +566,7 @@ display: inline-block;
 
 
 
+
 /**** RESUME ****/
 
 
@@ -627,8 +645,6 @@ li .email,
 
 
 
-
-
 /**** FOOTER ****/
 
 .footerbuffer {
@@ -657,16 +673,17 @@ li .email,
 @media screen and (min-width:1920px) {
 	
 	.background {
-		height: 800px;
+		height: 400px;
+		/* height: 800px; */
 	}
 
-
-	.bottomteeth {
+	.abottomteeth {
 	top: 785px;
 	}
+
 	
 .logo_large {
-	width: 17.4%;
+	width: 23%;
 	height: auto;
 }
 
@@ -701,7 +718,8 @@ li .email,
 .aligngroup {
 	width: 100%;
 }
-	
+
+
 	
 }
 
@@ -726,6 +744,7 @@ li .email,
 		display: none;
 	}
 	
+
 }
 
 @media screen and (max-width:563px) {
