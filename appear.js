@@ -26,13 +26,13 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 //#all already checked
-$( "#all1").prop('checked', true);
+ $( "#all1").prop('checked', true);
     	 if ($(this).is(":checked"))
 		   $(".all").prop("checked", true)
 		   else
 		$(".all").prop("checked", false);
 
-
+//LEAVE ALONE
 //when #all is checked, all other checkboxes are checked
     $(document).on(' change','input[name="all"]',function() {
             $('.allcheck').prop("checked" , this.checked);
@@ -65,41 +65,7 @@ $( "#all1").prop('checked', true);
     else
       $(".illustration").hide();
     });
-	
-		$("#branding1").click(function(event){
-		   if ($(this).is(":checked"))
-      $(".branding").show();
-    else
-      $(".branding").hide();
-    });
-	
-		$("#informational1").click(function(event){
-		   if ($(this).is(":checked"))
-      $(".informational").show();
-    else
-      $(".informational").hide();
-    });
-	
-		$("#print1").click(function(event){
-		   if ($(this).is(":checked"))
-      $(".print").show();
-    else
-      $(".print").hide();
-    });
-	
-		$("#poster1").click(function(event){
-		   if ($(this).is(":checked"))
-      $(".poster").show();
-    else
-      $(".poster").hide();
-    });
-	
-		$("#book1").click(function(event){
-		   if ($(this).is(":checked"))
-      $(".book").show();
-    else
-      $(".book").hide();
-    });
+
 	
 	
 
