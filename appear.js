@@ -73,6 +73,94 @@ $(document).ready(function(){
 
 //GALLERY
 
+
+$(document).ready(function(){
+$('.connectgroup').hide();
+$('.connect').click(function() {
+	$('.2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13').hide();
+$('.connectgroup').fadeToggle();
+});
+
+
+
+});
+
+
+
+$(document).ready(function(){
+$('.bigbookgroup').hide();
+$('.bigbook').click(function() {
+	$('.2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13').hide();
+$('.bigbookgroup').fadeToggle();
+});
+
+
+
+});
+
+
+$(document).ready(function(){
+$('.pricebook1group').hide();
+$('.pricebook1').click(function() {
+	$('.2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13').hide();
+$('.pricebook1group').fadeToggle();
+});
+
+
+
+});
+
+
+
+$(document).ready(function(){
+$('.pricebook2group').hide();
+$('.pricebook2').click(function() {
+	$('.2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13').hide();
+$('.pricebook2group').fadeToggle();
+});
+
+
+
+});
+
+
+$(document).ready(function(){
+$('.owoodgroup').hide();
+$('.owood').click(function() {
+	$('.2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13').hide();
+$('.owoodgroup').fadeToggle();
+});
+
+
+
+});
+
+
+
+$(document).ready(function(){
+$('.shedraingroup').hide();
+$('.shedrain').click(function() {
+	$('.2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13').hide();
+$('.shedraingroup').fadeToggle();
+});
+
+
+
+});
+
+
+
+$(document).ready(function(){
+$('.organcardsgroup').hide();
+$('.organcards').click(function() {
+	$('.2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13').hide();
+$('.organcardsgroup').fadeToggle();
+});
+
+
+
+});
+
 $(document).ready(function(){
 $('.phrasebookgroup').hide();
 $('.phrasebook').click(function() {
