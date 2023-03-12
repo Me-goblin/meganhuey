@@ -172,17 +172,18 @@
 }
 
 .wpcontainer {
-	width: 100%;
+    width: 100%;
 	height: auto;
 
 }
 
 .logo_large {
-	display: block;
+    display: block;
     margin: auto;
-	width: 280px;
+	width: 220px;
 	
 	height: auto;
+
 	/*box-shadow: 10px 0px 120px 60px rgba(89, 33, 97, 0.8);*/
 	
 	/*filter: drop-shadow(12px 12px 7px rgba(89,33,97,0.8));*/
@@ -193,7 +194,7 @@
 .logo_small {
 	display: none;
 	margin: auto;
-	padding-top: 95px;
+	padding-top: 85px;
 }
 
 
