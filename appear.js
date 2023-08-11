@@ -73,6 +73,60 @@ $(document).ready(function(){
 
 //GALLERY
 
+});
+
+$(document).ready(function(){
+$('.virusgroup').hide();
+$('.virus').click(function() {
+	$('.2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13, .14, .15, .16, .17, .18, .19, .20').hide();
+$('.virusgroup').fadeToggle();
+});
+
+
+
+});
+
+
+
+
+$(document).ready(function(){
+$('.infographicgroup').hide();
+$('.infographic').click(function() {
+$('.1, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13, .14, .15, .16, .17, .18, .19, .20').hide();
+$('.infographicgroup').fadeToggle();
+});
+
+
+
+});
+
+
+
+
+$(document).ready(function(){
+$('.crystalsgroup').hide();
+$('.crystals').click(function() {
+$('.1, .2, .4, .5, .6, .7, .8, .9, .10, .11, .12, .13, .14, .15, .16, .17, .18, .19, .20').hide();
+$('.crystalsgroup').fadeToggle();
+});
+
+
+
+});
+
+
+$(document).ready(function(){
+$('.animalsgroup').hide();
+$('.animals').click(function() {
+$('.1, .2, .3, .5, .6, .7, .8, .9, .10, .11, .12, .13, .14, .15, .16, .17, .18, .19, .20').hide();
+$('.animalsgroup').fadeToggle();
+});
+
+
+
+});
+
+
 
 $(document).ready(function(){
 $('.connectgroup').hide();
