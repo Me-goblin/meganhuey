@@ -157,7 +157,7 @@
 
 
 .background {
-	padding-top: 120px;
+	padding-top: 97px;
 	background: url('img/zigzag_tile3.png') repeat;
 	background-attachment: fixed;
 	height: 400px;
@@ -180,9 +180,8 @@
 .logo_large {
     display: block;
     margin: auto;
-	width: 280px;
-	
-	height: auto;
+    width: 115px;
+    height: auto;
 
 	/*box-shadow: 10px 0px 120px 60px rgba(89, 33, 97, 0.8);*/
 	
@@ -194,7 +193,7 @@
 .logo_small {
 	display: none;
 	margin: auto;
-	padding-top: 85px;
+	padding-top: 55px;
 }
 
 
